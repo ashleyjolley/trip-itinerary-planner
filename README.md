@@ -22,4 +22,23 @@ Activity Planning: Users will be able to add sightseeing attractions, tours, and
 
 Restaurant Planning: Users will be able to add restaurants and dining reservations to their daily schedules.
 
-Transportation Planning: Users will be able to organize transportation information, including flights, trains, and other travel arrangemen
+Transportation Planning: Users will be able to organize transportation information, including flights, trains, and other travel arrangements
+
+## Assignment 2 Updates
+
+The Trip Itinerary Planner now allows users to:
+
+- Enter a travel destination.
+- Select a trip start date.
+- Choose the number of travel days.
+- Select preferred activity categories.
+- Generate a personalized travel itinerary.
+- View one unique attraction per day.
+- Read attraction descriptions and Wikipedia links.
+
+The application uses the Wikidata API to find destination
+coordinates and the Wikipedia API to find nearby attractions.
+
+The itinerary updates based on the user's inputs.
+If there are not enough attractions, the app displays a message
+instead of repeating recommendations.
